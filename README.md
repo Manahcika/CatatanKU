@@ -105,19 +105,3 @@ Sudah tersedia akun demo untuk mencoba aplikasi:
 4. Klik **+ Tambah Catatan** untuk menambah catatan baru
 5. Gunakan tombol ✏️ untuk edit dan 🗑️ untuk hapus
 6. Klik ○ untuk menandai catatan sebagai selesai
-
----
-
-## Database
-
-```sql
-TABLE users      → id, nama, email, password, created_at
-TABLE todos      → id, user_id, judul, deskripsi, tanggal, prioritas, selesai
-TABLE kategori   → id, user_id, nama, warna
-```
-
----
-
-## Developer
-
-Dibuat sebagai tugas mata kuliah pemrograman berbasis objek menggunakan PHP murni tanpa framework.
